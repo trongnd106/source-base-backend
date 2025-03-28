@@ -1,0 +1,195 @@
+2024-08-29 15:05:02 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-29 15:10:59 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-29 15:11:01 error: [GET] /api/v1/admin/categories/1 >> StatusCode:: 500, Message:: Internal Server Error
+2024-08-29 15:11:42 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-29 15:11:58 error: [GET] /api/v1/admin/categories/1 >> StatusCode:: 500, Message:: Internal Server Error
+2024-08-29 15:17:31 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-29 15:18:48 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-29 15:20:16 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty
+2024-08-29 15:20:22 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.create()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:27:35
+
+  24 categoryData.created_at = new Date();
+  25 categoryData.updated_at = new Date();
+  26 
+→ 27 return this.prisma.category.create({
+       data: {
+         name: "test category",
+         description: "Just a test product",
+         parent: 1,
+                 ~
+         status: "active",
+         created_at: new Date("2024-08-29T08:20:22.020Z"),
+         updated_at: new Date("2024-08-29T08:20:22.020Z")
+       }
+     })
+
+Argument `parent`: Invalid value provided. Expected categoryCreateNestedOneWithoutChildrenInput, provided Int.
+2024-08-29 15:20:59 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string
+2024-08-29 15:21:09 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints
+2024-08-29 15:21:28 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: Unexpected token '}', ..."tatus": 
+}" is not valid JSON
+2024-08-29 15:21:45 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 97
+2024-08-29 15:21:49 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: status must be a string,status should not be empty
+2024-08-29 15:22:08 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 409, Message:: Category already exists
+2024-08-29 15:23:15 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters, parent_id must be a number conforming to the specified constraints
+2024-08-29 15:24:17 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 87
+2024-08-29 15:24:20 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters, parent_id must be a number conforming to the specified constraints, status must be a string,status should not be empty
+2024-08-29 15:24:43 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, parent_id must be a number conforming to the specified constraints, status must be a string,status should not be empty
+2024-08-29 15:26:30 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters
+2024-08-29 15:26:38 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters
+2024-08-29 15:26:59 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.create()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:27:35
+
+  24 categoryData.created_at = new Date();
+  25 categoryData.updated_at = new Date();
+  26 
+→ 27 return this.prisma.category.create(
+Foreign key constraint failed on the field: `foreign key`
+2024-08-29 15:33:40 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:136:55
+
+  133   }
+  134 }
+  135 
+→ 136 const findCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:33:48 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 400, Message:: Unexpected token ',', ...""parent": ,
+    "st"... is not valid JSON
+2024-08-29 15:33:53 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:136:55
+
+  133   }
+  134 }
+  135 
+→ 136 const findCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:34:06 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 409, Message:: Parent cannot be itself
+2024-08-29 15:34:21 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 409, Message:: Parent cannot be itself
+2024-08-29 15:34:24 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:35:28 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:35:57 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:37:24 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:38:16 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints
+2024-08-29 15:38:26 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:38:39 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:136:55
+
+  133   }
+  134 }
+  135 
+→ 136 const findCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:38:53 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 400, Message:: description must be a string, status must be a string,status should not be empty
+2024-08-29 15:39:09 error: [PUT] /api/v1/admin/categories/1 >> StatusCode:: 400, Message:: description must be a string, status must be a string,status should not be empty
+2024-08-29 15:39:44 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:40:41 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 73
+2024-08-29 15:40:46 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: status must be a string,status should not be empty
+2024-08-29 15:41:17 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string
+2024-08-29 15:41:58 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:42:11 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:42:37 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 409, Message:: Parent cannot be itself
+2024-08-29 15:42:40 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:43:46 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 409, Message:: Category already exists
+2024-08-29 15:44:01 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:45:31 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string
+2024-08-29 15:45:40 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.findFirst()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:125:59
+
+  122 }
+  123 
+  124 if (categoryData.parent_id) {
+→ 125   const parentCategory = await this.prisma.category.findFirst(
+Inconsistent column data: Conversion failed: premature end of input
+2024-08-29 15:47:33 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name must be a string
+2024-08-29 15:47:38 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name must be a string
+2024-08-29 15:47:58 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 404, Message:: Parent category not found
+2024-08-29 15:48:11 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: status must be a string
+2024-08-29 15:48:21 error: [PUT] /api/v1/admin/categories/3 >> StatusCode:: 400, Message:: status must be a string
+2024-08-29 16:17:34 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty

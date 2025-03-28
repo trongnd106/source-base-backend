@@ -1,0 +1,96 @@
+2024-07-16 14:56:39 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2024-07-16 14:56:53 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2024-07-16 14:56:53 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2024-07-16 14:57:26 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2024-07-16 14:57:27 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+2024-07-16 14:57:33 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/server.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)

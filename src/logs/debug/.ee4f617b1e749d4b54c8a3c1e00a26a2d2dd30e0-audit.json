@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\BACK-UP\\task\\DropX-Renew-Backend\\src\\logs\\debug\\.ee4f617b1e749d4b54c8a3c1e00a26a2d2dd30e0-audit.json",
+    "files": [
+        {
+            "date": 1724829862700,
+            "name": "D:\\BACK-UP\\task\\DropX-Renew-Backend\\src\\logs\\debug\\2024-08-28.log",
+            "hash": "4bcb6316f2b8a219ed91511b19cd887c3a32ea0e9e3cad54671e65178c899099"
+        },
+        {
+            "date": 1724912797867,
+            "name": "D:\\BACK-UP\\task\\DropX-Renew-Backend\\src\\logs\\debug\\2024-08-29.log",
+            "hash": "045796c8202eb64fbbf2aff8093726dbd376d3bce08e751ca64781b30d6e46e4"
+        }
+    ],
+    "hashType": "sha256"
+}

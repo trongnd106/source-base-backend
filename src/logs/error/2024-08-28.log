@@ -1,0 +1,35 @@
+2024-08-28 16:15:53 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-28 16:16:37 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-28 16:19:25 error: [GET] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: Invalid queries, check 'errors' property for more info.
+2024-08-28 16:30:57 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty
+2024-08-28 16:32:58 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty
+2024-08-28 16:42:14 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty
+2024-08-28 16:42:19 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty
+2024-08-28 16:43:01 error: [PUT] /api/v1/admin/categories/2 >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, description must be a string, status must be a string,status should not be empty
+2024-08-28 16:44:41 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 500, Message:: 
+Invalid `this.prisma.category.create()` invocation in
+D:\BACK-UP\task\DropX-Renew-Backend\src\services\categories.service.ts:27:35
+
+  24 categoryData.created_at = new Date();
+  25 categoryData.updated_at = new Date();
+  26 
+→ 27 return this.prisma.category.create({
+       data: {
+         name: "test category",
+         description: "Just a test product",
+         parent: 1,
+                 ~
+         status: "active",
+         created_at: new Date("2024-08-28T09:44:41.645Z"),
+         updated_at: new Date("2024-08-28T09:44:41.645Z")
+       }
+     })
+
+Argument `parent`: Invalid value provided. Expected categoryCreateNestedOneWithoutChildrenInput, provided Int.
+2024-08-28 16:47:10 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints
+2024-08-28 16:47:25 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name must be a string, parent_id must be a number conforming to the specified constraints
+2024-08-28 16:47:32 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters, parent_id must be a number conforming to the specified constraints
+2024-08-28 16:47:37 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters, description must be a string, parent_id must be a number conforming to the specified constraints
+2024-08-28 16:47:47 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 71
+2024-08-28 16:47:52 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters, parent_id must be a number conforming to the specified constraints, status must be a string,status should not be empty
+2024-08-28 16:48:02 error: [POST] /api/v1/admin/categories/ >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters,name should not be empty,name must be a string, status must be a string,status should not be empty

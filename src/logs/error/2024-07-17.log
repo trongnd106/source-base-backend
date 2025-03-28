@@ -1,0 +1,60 @@
+2024-07-17 10:22:14 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'login')
+2024-07-17 10:23:17 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'login')
+2024-07-17 10:23:18 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'login')
+2024-07-17 10:24:01 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'login')
+2024-07-17 10:24:25 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'login')
+2024-07-17 10:25:00 error: [POST] /login >> StatusCode:: 500, Message:: Service with "MaybeConstructable<t>" identifier was not found in the container. Register it before usage via explicitly calling the "Container.set" function or using the "@Service()" decorator.
+2024-07-17 10:25:08 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'user')
+2024-07-17 10:25:15 error: [POST] /login >> StatusCode:: 500, Message:: Service with "MaybeConstructable<t>" identifier was not found in the container. Register it before usage via explicitly calling the "Container.set" function or using the "@Service()" decorator.
+2024-07-17 10:25:25 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'user')
+2024-07-17 10:25:32 error: [POST] /login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'user')
+2024-07-17 10:26:02 error: [POST] /login >> StatusCode:: 409, Message:: This email duytd@vggate.com was not found
+2024-07-17 10:26:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m7[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m49[0m       }
+[7m  [0m [91m      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m49[0m:[93m7[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m49[0m       }
+[7m  [0m [91m      ~[0m
+
+    at createTSError (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-17 10:27:00 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2024-07-17 10:27:12 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2024-07-17 10:28:26 error: [POST] /login >> StatusCode:: 409, Message:: This email duytd2@vggate.com was not found
+2024-07-17 10:30:44 error: [POST] /signup >> StatusCode:: 500, Message:: 
+Invalid `this.prismaClient.user.create()` invocation in
+/Users/dtd/Desktop/external drive backup/Projects/Node/project name 2/src/services/auth.service.ts:38:55
+
+  35 
+  36 const hashedPassword = await hash(userData.password, 10);
+  37 const createUserData: User = { id: UserModel.length + 1, ...userData, password: hashedPassword };
+→ 38 const createResult = await this.prismaClient.user.create(
+Unique constraint failed on the fields: (`id`)
+2024-07-17 10:46:55 error: [GET] /categories >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'findAll')
+2024-07-17 10:47:57 error: [GET] /categories >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'findAll')
+2024-07-17 10:52:31 error: [POST] /categories >> StatusCode:: 400, Message:: name must be longer than or equal to 5 characters, parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:52:36 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:53:13 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:53:56 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:53:56 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:29 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:30 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:30 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:30 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:30 error: [POST] /categories >> StatusCode:: 400, Message:: parent_id must be a number conforming to the specified constraints, created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:41 error: [POST] /categories >> StatusCode:: 400, Message:: created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:54:49 error: [POST] /categories >> StatusCode:: 400, Message:: created_at must be a Date instance, updated_at must be a Date instance
+2024-07-17 10:57:02 error: [POST] /signup >> StatusCode:: 500, Message:: Error: This email duytd2@vggate.com already exists
